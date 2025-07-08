@@ -1,0 +1,615 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "product-title-sm",
+            "title_size_mobile": "product-title-sm",
+            "show_price": true,
+            "show_rating": true
+          }
+        },
+        "liquid_LDLVHz": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"product-info__liquid\">\n  <div class=\"oogalaboogla\" style=\"background:rgba(246, 248, 252, 1); padding: 5px 10px; display: flex; justify-content: center; align-items: center; border-radius: 10px;\">\n    <div style=\"font-size: 15px; text-align: center; line-height: 1; display: flex; align-items: center; gap: 8px; white-space: nowrap;\">\n      <span>\n        <strong> 1 parfum acheté = 1 échantillon offert</strong>\n      </span>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "liquid_KPqhKi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-type=\"separator\"><hr></div>"
+          }
+        },
+        "liquid_JbNCm6": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;\">\n  \n  <!-- Colonne gauche : Badges olfactifs -->\n  <div style=\"display:flex; flex-wrap:wrap; gap:5px;\">\n    <div style=\"font-size:12px; color:#ffffff; background-color:#1c1c1c; padding:5px 10px; border-radius:4px;\">\n      Sucré\n    </div>\n    <div style=\"font-size:12px; color:#ffffff; background-color:#1c1c1c; padding:5px 10px; border-radius:4px;\">\n      Épicé chaud\n    </div>\n  </div>\n  \n  <!-- Colonne droite : Tags produit -->\n  <div style=\"display:flex; flex-wrap:wrap; gap:5px;\">\n    <div style=\"border:1px solid #eaeaea; color:#1c1c1c; background-color:#ffffff; padding:5px 10px; border-radius:4px; font-size:12px;\">\n      50ml\n    </div>\n    <div style=\"border:1px solid #eaeaea; color:#1c1c1c; background-color:#ffffff; padding:5px 10px; border-radius:4px; font-size:12px;\">\n      Elixir de parfum\n    </div>\n    <div style=\"border:1px solid #eaeaea; color:#1c1c1c; background-color:#ffffff; padding:5px 10px; border-radius:4px; font-size:12px;\">\n      Unisexe\n    </div>\n  </div>\n  \n</div>"
+          }
+        },
+        "liquid_Qx7Kda": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-type=\"separator\"><hr></div>"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "heading": "Hurry up!",
+            "subheading": "Sale end in:",
+            "color_text": "#e11d48",
+            "color_background": "#fff1f2",
+            "gradient_background": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "dropdown",
+            "enable_color_swatches": true,
+            "color_swatch_type": "color",
+            "size_chart": ""
+          }
+        },
+        "liquid_tVajib": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item product-info__block-item-small\" data-block-type=\"estimator-shipping\"><style>\n  #delivery-container {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 0.75rem;\n    margin-bottom: 1rem;\n  }\n  #delivery-icon {\n    font-size: inherit;\n    margin-right: 0.25rem;\n    vertical-align: middle;\n  }\n  #delivery-text {\n    margin: 0;\n  }\n  #delivery-date {\n    font-weight: bold;\n  }\n  .product-info__block-item.product-info__block-item-small #delivery-container {\n    margin-bottom: calc(var(--product-info-gap) / 4);\n  }\n  @media screen and (max-width: 749px) {\n    #delivery-container {\n      font-size: 0.65rem;\n    }\n  }\n</style>\n\n<div id=\"delivery-container\">\n  <svg id=\"delivery-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"13\" viewBox=\"0 0 14 13\" fill=\"none\">\n    <path d=\"M8.60809 0.914506L8.6081 0.914508L13.2956 3.49263C13.3613 3.52876 13.416 3.58186 13.4542 3.64639C13.4924 3.71091 13.5125 3.78449 13.5125 3.85945V9.95319C13.5125 10.0282 13.4924 10.1017 13.4542 10.1663C13.416 10.2308 13.3613 10.2839 13.2956 10.32L8.6081 12.8981L8.63219 12.9419L8.60809 12.8981C8.54626 12.9322 8.47683 12.95 8.40626 12.95C8.33568 12.95 8.26625 12.9322 8.20442 12.8981L8.18032 12.9419L8.20442 12.8981L6.13043 11.7574L6.53408 11.0242L7.91341 11.7829L7.98751 11.8237V11.7391V6.7146V6.68504L7.9616 6.67079L3.51693 4.22627C3.45128 4.19012 3.39653 4.13702 3.3584 4.07249C3.32027 4.00797 3.30015 3.9344 3.30015 3.85945C3.30015 3.7845 3.32027 3.71092 3.3584 3.6464C3.39653 3.58188 3.45128 3.52877 3.51693 3.49262L8.20442 0.914508L8.20442 0.914506C8.26625 0.880489 8.33568 0.862653 8.40626 0.862653C8.47683 0.862653 8.54626 0.880489 8.60809 0.914506ZM8.43035 1.77282L8.40626 1.75957L8.38216 1.77282L4.66732 3.81563L4.58765 3.85945L4.66732 3.90326L8.38216 5.94607L8.40626 5.95932L8.43035 5.94607L12.1452 3.90326L12.2249 3.85945L12.1452 3.81563L8.43035 1.77282ZM12.6491 9.71998L12.675 9.70573V9.67617V4.65163V4.56707L12.6009 4.60782L8.85091 6.67032L8.82501 6.68457V6.71413V11.7387V11.8232L8.8991 11.7825L12.6491 9.71998Z\" fill=\"black\" stroke=\"#E9E9E9\" stroke-width=\"0.1\"></path>\n    <path d=\"M4.0625 6.78131H0.5625V6.09381H4.0625V6.78131ZM5 10.5313H1.5V9.84381H5V10.5313ZM5.9375 8.65631H2.4375V7.96881H5.9375V8.65631Z\" fill=\"black\" stroke=\"#FBFAF9\" stroke-width=\"0.25\"></path>\n  </svg>\n  <p id=\"delivery-text\">\n    Commandez maintenant et recevez le \n    <span id=\"delivery-date\">lundi 7 juillet</span>\n  </p>\n</div>\n\n<script>\n  // Fonction pour calculer la date de livraison\n  function calculateDeliveryDate(country) {\n    let today = new Date();\n    let deliveryDate;\n\n    // Délais basés sur le pays\n    if (country === 'France') {\n      deliveryDate = new Date(today.setDate(today.getDate() + 3)); // Livraison en France sous 3 jours\n    } else if (country === 'Europe') {\n      deliveryDate = new Date(today.setDate(today.getDate() + 3)); // Livraison en Europe sous 4 jours\n    } else {\n      deliveryDate = new Date(today.setDate(today.getDate() + 3)); // Livraison internationale sous 7 jours\n    }\n\n    // Formatage de la date sans l'année\n    let options = { weekday: 'long', month: 'long', day: 'numeric' };\n    return deliveryDate.toLocaleDateString('fr-FR', options);\n  }\n\n  // Fonction pour obtenir le pays du visiteur (en utilisant un service d'API IP)\n  function fetchCountry() {\n    fetch('https://ipapi.co/json/')\n      .then((response) => response.json())\n      .then((data) => {\n        let country = data.country_name;\n\n        // Calcul et affichage de la date de livraison\n        let deliveryDate = calculateDeliveryDate(country);\n        document.getElementById('delivery-date').textContent = deliveryDate;\n      })\n      .catch((error) => {\n        console.error('Erreur lors de la récupération de la localisation:', error);\n        // Par défaut si la localisation échoue, on suppose une livraison en France\n        let deliveryDate = calculateDeliveryDate('France');\n        document.getElementById('delivery-date').textContent = deliveryDate;\n      });\n  }\n\n  // Appel de la fonction pour obtenir le pays du visiteur et calculer la date de livraison\n  fetchCountry();\n</script>\n\n</div>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_price": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": false,
+            "show_back_in_stock_phone": false
+          }
+        },
+        "sticky_buy_button": {
+          "type": "sticky_buy_button",
+          "settings": {}
+        },
+        "liquid_zhyFhB": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Badges Informations Produit</title>\n    <style>\n        .feature-badge-list {\n            display: flex;\n            justify-content: space-between;\n            flex-wrap: wrap;\n            gap: 15px;\n            padding: 20px;\n            background: #fff;\n            border-radius: 12px;\n            max-width: 1000px;\n            margin: 0 auto;\n        }\n        \n        .product-info__block-item {\n            flex: 1;\n            min-width: 200px;\n        }\n        \n        .feature-badge {\n            display: flex;\n            align-items: center;\n            padding: 10px 15px;\n            background: #f9f9f9;\n            border-radius: 8px;\n            height: 100%;\n        }\n        \n        .feature-badge svg {\n            width: 24px;\n            height: 24px;\n            margin-right: 12px;\n            flex-shrink: 0;\n        }\n        \n        .feature-badge p {\n            margin: 0;\n            font-size: 14px;\n            line-height: 1.4;\n            color: #333;\n            font-weight: 500;\n        }\n        \n        @media (max-width: 768px) {\n            .feature-badge-list {\n                flex-direction: column;\n                gap: 10px;\n            }\n            \n            .product-info__block-item {\n                width: 100%;\n            }\n            \n            .feature-badge {\n                padding: 12px 15px;\n            }\n        }\n        \n        @media (max-width: 480px) {\n            .feature-badge p {\n                font-size: 13px;\n            }\n            \n            .feature-badge svg {\n                width: 20px;\n                height: 20px;\n                margin-right: 10px;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"product-info__block-group feature-badge-list\" data-group-type=\"feature-badge-list\">\n        <div class=\"product-info__block-item\" data-block-type=\"feature-with-icon\">\n            <div class=\"feature-badge\" style=\"--background: 255 255 255 ; background-color: rgb(var(--background));--text-color: 28 28 28; color: rgb(var(--text-color));--border-color:221 221 221;\">\n                <svg aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke-width=\"2\" class=\"icon icon-picto-love\" viewBox=\"0 0 24 24\">\n                    <path clip-rule=\"evenodd\" d=\"m12 21.844-9.588-10a5.672 5.672 0 0 1-1.063-6.551v0a5.673 5.673 0 0 1 9.085-1.474L12 5.384l1.566-1.565a5.673 5.673 0 0 1 9.085 1.474v0a5.673 5.673 0 0 1-1.062 6.548L12 21.844Z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                </svg>\n                <p>Savoir faire 100% français</p>\n            </div>\n        </div>\n        \n        <div class=\"product-info__block-item\" data-block-type=\"feature-with-icon\">\n            <div class=\"feature-badge\" style=\"--background: 255 255 255 ; background-color: rgb(var(--background));--text-color: 28 28 28; color: rgb(var(--text-color));--border-color:221 221 221;\">\n                <svg aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke-width=\"2\" class=\"icon icon-picto-box\" viewBox=\"0 0 24 24\">\n                    <path clip-rule=\"evenodd\" d=\"M.75 5.25 12 9.75l11.25-4.5L12 .75.75 5.25Z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                    <path clip-rule=\"evenodd\" d=\"M.75 5.25v13.5L12 23.25V9.75L.75 5.25v0Zm22.5 0v13.5L12 23.25V9.75l11.25-4.5v0Z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                    <path d=\"m18.187 7.275-11.25-4.5M20.625 16.5l-1.875.75\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                </svg>\n                <p>Livraison internationale sécurisée</p>\n            </div>\n        </div>\n        \n        <div class=\"product-info__block-item\" data-block-type=\"feature-with-icon\">\n            <div class=\"feature-badge\" style=\"--background: 255 255 255 ; background-color: rgb(var(--background));--text-color: 28 28 28; color: rgb(var(--text-color));--border-color:221 221 221;\">\n                <svg aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke-width=\"2\" class=\"icon icon-picto-credit-card\" viewBox=\"0 0 24 24\">\n                    <path clip-rule=\"evenodd\" d=\"M.75 5.25a1.5 1.5 0 0 1 1.5-1.5h19.5a1.5 1.5 0 0 1 1.5 1.5v13.5a1.5 1.5 0 0 1-1.5 1.5H2.25a1.5 1.5 0 0 1-1.5-1.5V5.25Z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                    <path d=\"M.75 8.25h22.5m-18 4.5h8.25m-8.25 3h5.25\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                </svg>\n                <p>Paiement 100% sécurisé</p>\n            </div>\n        </div>\n    </div>\n</body>\n</html>"
+          }
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "product_bundle_idfcGh": {
+          "type": "product_bundle",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "heading": "Popular upgrades",
+            "products": [],
+            "metafield": "",
+            "opened": true
+          }
+        },
+        "complementary": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_limit": 4,
+            "show_vendor": false,
+            "show_price": true
+          }
+        },
+        "collapsible_tab_y8PbfF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Notes du parfum",
+            "content": "<p>Note de tête : café corsé, cannelle chaude<br/>Note de cœur : praline fondante, essence de rose, fève tonka<br/>Note de fond : vanille noire, oud fumé, ambre résineux</p>",
+            "page": "",
+            "liquid": "",
+            "opened": false
+          }
+        },
+        "collapsible_tab_L4ighk": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Ingrédients",
+            "content": "<p>Alcohol Denat (75 % vol), Parfum (Fragrance), Coumarin, Linalool, Limonene, Cinnamal, Benzyl Alcohol, Eugenol, Citral, Isoeugenol…<br/><br/>Nous vous recommandons de vérifier la liste des ingrédients du produit directement sur son emballage en raison de changements potentiels.</p>",
+            "page": "",
+            "liquid": "",
+            "opened": false
+          }
+        },
+        "collapsible_tab_3YEXVL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Description",
+            "content": "<p>Khamrah Qahwa est une explosion sensuelle de café et d’épices, adoucie par des notes gourmandes et enveloppée dans un sillage oriental profond. Un parfum intense et réconfortant, parfait pour les amateurs de café et de chaleur orientale.</p>",
+            "page": "",
+            "liquid": "",
+            "opened": false
+          }
+        },
+        "liquid_ReTUhR": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"product-info__liquid\">\n  <div class=\"oogalaboogla\" style=\"background:rgba(00, 00, 00, 0); padding: 5px 10px; display: flex; justify-content: center; align-items: center; border-radius: 10px;\">\n    <div style=\"font-size: 15px; text-align: center; line-height: 1; display: flex; align-items: center; gap: 8px; white-space: nowrap;\">\n      <span>\n        <strong> Payement sécurisé avec :</strong>\n      </span>\n    </div>\n  </div>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "liquid_LDLVHz",
+        "liquid_KPqhKi",
+        "liquid_JbNCm6",
+        "liquid_Qx7Kda",
+        "countdown",
+        "variant_picker",
+        "liquid_tVajib",
+        "buy_buttons",
+        "sticky_buy_button",
+        "liquid_zhyFhB",
+        "pickup_availability",
+        "product_bundle_idfcGh",
+        "complementary",
+        "collapsible_tab_y8PbfF",
+        "collapsible_tab_L4ighk",
+        "collapsible_tab_3YEXVL",
+        "liquid_ReTUhR"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": 66,
+        "gallery_layout": "scroll",
+        "thumbnail_position": "beside",
+        "image_ratio": "adapt_first",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "mobile_layout": "full_width",
+        "image_ratio_mobile": "adapt_first",
+        "mobile_thumbnail": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "custom_liquid_g88xiz": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {}
+    },
+    "comparaison_aBzYJB": {
+      "type": "comparaison",
+      "blocks": {
+        "item_zbAUzh": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Un parfum qui vous distingue vraiment ?",
+            "first_column": "Oui",
+            "second_column": "Non",
+            "third_column": "",
+            "four_column": ""
+          }
+        },
+        "item_aEKmgn": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Une senteur intense qui tient toute la journée ?",
+            "first_column": "Oui",
+            "second_column": "Non",
+            "third_column": "",
+            "four_column": ""
+          }
+        },
+        "item_dYU9iB": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Une expérience olfactive personnalisée ?",
+            "first_column": "Oui",
+            "second_column": "Non",
+            "third_column": "",
+            "four_column": ""
+          }
+        },
+        "item_zyjwqD": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Des parfums authentiques inspirés de Dubaï ?",
+            "first_column": "Oui",
+            "second_column": "Non",
+            "third_column": "",
+            "four_column": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_zbAUzh",
+        "item_aEKmgn",
+        "item_dYU9iB",
+        "item_zyjwqD"
+      ],
+      "name": "SS - Comparison Table #4",
+      "settings": {
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "heading_size": 56,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "table_width": 80,
+        "table_columns": 2,
+        "table_align": "center",
+        "table_mt": 44,
+        "table_column_active": "1",
+        "table_column_active_radius": 16,
+        "table_column_active_border_thickness": 2,
+        "table_heading_image_size": 66,
+        "table_heading_image_size_mobile": 40,
+        "first_heading": "MKB IMPERIAL",
+        "first_heading_image": "shopify://shop_images/logo_seulement.png",
+        "second_heading": "AUTRES",
+        "third_heading": "",
+        "four_heading": "",
+        "table_heading_custom": false,
+        "table_heading_font": "assistant_n4",
+        "table_heading_size": 16,
+        "table_heading_size_mobile": 10,
+        "table_heading_height": 100,
+        "table_heading_align": "center",
+        "table_heading_padding_horizontal": 12,
+        "table_heading_padding_horizontal_mobile": 4,
+        "table_heading_padding_vertical": 10,
+        "table_heading_padding_vertical_mobile": 10,
+        "table_row_padding_horizontal": 16,
+        "table_row_padding_horizontal_mobile": 10,
+        "table_row_padding_vertical": 16,
+        "table_row_padding_vertical_mobile": 10,
+        "table_row_border_thickness": 1,
+        "table_row_heading_image_size": 66,
+        "table_row_heading_image_size_mobile": 40,
+        "table_row_heading_width_mobile": 66,
+        "table_row_heading_custom": false,
+        "table_row_heading_font": "assistant_n4",
+        "table_row_heading_size": 22,
+        "table_row_heading_size_mobile": 16,
+        "table_row_heading_height": 130,
+        "table_row_heading_align": "left",
+        "table_row_text_custom": false,
+        "table_row_text_font": "assistant_n4",
+        "table_row_text_size": 20,
+        "table_row_text_size_mobile": 16,
+        "table_row_text_height": 130,
+        "table_row_text_align": "center",
+        "table_row_image_size": 52,
+        "table_row_image_size_mobile": 40,
+        "buttons_mt": 44,
+        "buttons_gap": 16,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 22,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_padding_vertical": 20,
+        "button_padding_horizontal": 40,
+        "button_radius": 6,
+        "button_border_thickness": 2,
+        "second_button": "",
+        "second_button_url": "",
+        "second_button_custom": false,
+        "second_button_font": "josefin_sans_n4",
+        "second_button_size": 22,
+        "second_button_size_mobile": 18,
+        "second_button_height": 100,
+        "second_button_padding_vertical": 20,
+        "second_button_padding_horizontal": 40,
+        "second_button_radius": 6,
+        "second_button_border_thickness": 2,
+        "table_heading_color": "#2f1718",
+        "table_heading_active_color": "#ffffff",
+        "table_heading_bg_active_color": "#171717",
+        "table_column_active_bg_color": "#ffffff",
+        "table_column_active_border_color": "#171717",
+        "table_row_border_color": "#ffffff",
+        "table_row_heading_color": "#2f1718",
+        "table_row_text_color": "#2f1718",
+        "table_row_active_text_color": "#d4af37",
+        "button_color": "#d4af37",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "",
+        "button_bg_hover_color": "#a8252e",
+        "button_border_color": "#a8252e",
+        "button_border_hover_color": "#a8252e",
+        "second_button_color": "#ffffff",
+        "second_button_hover_color": "#ffffff",
+        "second_button_bg_color": "#a8252e",
+        "second_button_bg_hover_color": "#791119",
+        "second_button_border_color": "#a8252e",
+        "second_button_border_hover_color": "#791119",
+        "heading_color": "#2f1718",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "featured_collections_BXQTfd": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Xj6nUJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products": [
+              "eau-de-parfum-kenzie-vanilla-70-volare-100-ml",
+              "fakhar-rose-eau-de-parfum-100-ml",
+              "khair-pistachio-eau-de-parfum-100-ml-paris-corner",
+              "minya-coco-lush-eau-de-parfum-mixte-100-ml-paris-corner",
+              "minya-eau-de-parfum-100ml-paris-corner",
+              "oud-cachemire-extrait-de-parfum-75-ml-gris-montaigne-paris",
+              "pistachio-musk-eau-de-parfum-60-ml-gulf-orchid",
+              "yara-candy-eau-de-parfum-100-ml"
+            ],
+            "title": "VOUS AIMEREZ AUSSI"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Xj6nUJ"
+      ],
+      "name": "t:sections.featured-collections.presets.name",
+      "settings": {
+        "product_limit": 8,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<h2><strong>VOUS AIMEREZ AUSSI</strong></h2>",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#171717",
+        "color_button_gradient": "",
+        "padding_top": 4,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "help-drawer": {
+      "type": "help-drawer",
+      "blocks": {
+        "content-1": {
+          "type": "content",
+          "settings": {
+            "icon": "rocket",
+            "heading": "Shipping Information",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#b45309",
+            "color_background": "#fffbeb",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-2": {
+          "type": "content",
+          "settings": {
+            "icon": "headphone",
+            "heading": "Customer Support",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#0369a1",
+            "color_background": "#f0f9ff",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-3": {
+          "type": "content",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "FAQ’s",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#be123c",
+            "color_background": "#fff1f2",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-4": {
+          "type": "content",
+          "settings": {
+            "icon": "phone",
+            "heading": "Contact Us",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#4d7c0f",
+            "color_background": "#f7fee7",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        }
+      },
+      "block_order": [
+        "content-1",
+        "content-2",
+        "content-3",
+        "content-4"
+      ],
+      "settings": {
+        "heading": "Need help?",
+        "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>MKB IMPÉRIAL</strong></em>",
+            "text_size": 160,
+            "text_font": "body",
+            "highlighted_text": "stencil",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 20,
+        "grid_horizontal": 70,
+        "enable_twin": false,
+        "enable_parallax": true,
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Découvrez les parfums similaire",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Recently Viewed",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-product",
+    "custom_liquid_g88xiz",
+    "comparaison_aBzYJB",
+    "featured_collections_BXQTfd",
+    "help-drawer",
+    "scrolling-text",
+    "product-recommendations",
+    "recently-viewed"
+  ]
+}
