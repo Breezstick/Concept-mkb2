@@ -62,7 +62,7 @@
           "type": "button",
           "settings": {
             "button_label": "Découvrir nos Best Sellers",
-            "button_link": "shopify://collections/nos-best-seller",
+            "button_link": "shopify://collections/frontpage",
             "button_style": "primary",
             "button_size": "sm",
             "button_external": false,
@@ -233,7 +233,7 @@
         "collection_z4FQJt": {
           "type": "collection",
           "settings": {
-            "collection": "tous-les-produits",
+            "collection": "frontpage",
             "products": [],
             "title": "COUPS DE COEUR"
           }
