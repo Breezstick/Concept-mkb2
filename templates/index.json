@@ -327,7 +327,7 @@
         "collection-4": {
           "type": "collection",
           "settings": {
-            "collection": "collection-ambree-orientale🔥",
+            "collection": "collection-boisee-ambree-🌲",
             "image": "shopify://shop_images/IMG_1280.jpg",
             "title": "Collection Ambrée & Orientale 🔥",
             "description": "Chaleur, bois, épices, vanille foncée, encens.",
@@ -364,7 +364,7 @@
         "image_type": "collection",
         "image_ratio": "square",
         "show_products_count": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "heading": "NOS UNIVERS <em>OLFACTIFS</em>",
